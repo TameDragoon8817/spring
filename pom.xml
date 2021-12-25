@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>hellospringxml</module>
+        <module>dependencyinjection</module>
     </modules>
 
     <dependencies>

@@ -2,7 +2,8 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean id="hello" class="pojo.Hello">
+    <bean id="hello" class="pojo.Hello" name="hello3,hello4;hello5">
         <property name="str" value="Spring"/>
     </bean>
+    <alias name="hello" alias="hello2"/>
 </beans>
