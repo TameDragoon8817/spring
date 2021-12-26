@@ -8,10 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="dependencyinjection" />
         <module name="annotation" />
+        <module name="proxy" />
         <module name="autowired" />
+        <module name="annotationjavaconfig" />
         <module name="hellospringxml" />
         <module name="cp" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="javaconfig" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
