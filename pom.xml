@@ -11,6 +11,7 @@
     <modules>
         <module>hellospringxml</module>
         <module>dependencyinjection</module>
+        <module>cp</module>
     </modules>
 
     <dependencies>
