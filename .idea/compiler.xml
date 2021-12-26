@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hellospringxml" />
         <module name="dependencyinjection" />
+        <module name="autowired" />
+        <module name="hellospringxml" />
         <module name="cp" />
       </profile>
     </annotationProcessing>

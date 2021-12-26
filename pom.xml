@@ -12,6 +12,7 @@
         <module>hellospringxml</module>
         <module>dependencyinjection</module>
         <module>cp</module>
+        <module>autowired</module>
     </modules>
 
     <dependencies>
